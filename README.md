@@ -3,8 +3,8 @@
   <h3><b>Portfolio</b></h3>
 </div>
 
-# :book: [My_Portfolio] <a name="about-project"></a>
-*[My_Protfolio]* is the a simple Html and Css portfolio project with Microverse linter configuration.
+# :book: [Portfolio] <a name="about-project"></a>
+*[Protfolio]* is the a simple Html and Css portfolio project with Microverse linter configuration.
 
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
 -HTML
