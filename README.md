@@ -10,20 +10,6 @@
 -HTML
 <br/>
 -CSS
-### Tech Stack <a name="tech-stack"></a>
-<details>
-  <summary>Version Control</summary>
-  <ul>
-    <li><a href="https://github.com/">Git Hub</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Visual Studio Code</summary>
-  <ul>
-    <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
 
