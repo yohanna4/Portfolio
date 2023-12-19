@@ -42,11 +42,6 @@
 - [Live Demo Link](https://yohanna4.github.io/Portfolio/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [ ] *[Animations]*
-- [ ] *[Body-section]*
-- [ ] *[Footer Section]*
-- [ ] *[DesktopVersion]*
-
 <!-- LICENSE -->
 
 ## :memo: License <a name="license"></a>
