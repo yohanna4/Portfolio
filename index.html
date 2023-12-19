@@ -1,0 +1,176 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&family=Inter:wght@300;600;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Yohanna's Portfolio</title>
+</head>
+<body>
+    
+     <header class="headerContainer">
+        <lable class="logo">Yohanna</lable>
+        <nav><img src="image/burgerMenu.svg" alt="menu icon" class="burgerIcon">
+        <ul class="navLinksContainer">
+          <li class="list"><a href="#works">Portfolio</a></li>
+          <li class="list"><a href="#about">About</a></li>
+          <li class="list"><a href="#contactMe">Contact</a></li>
+        </ul>
+        </nav>
+     </header>
+
+     <main>
+      <!-- hero section -->
+      <section class="heroMainContainer" id="hero">
+        <div class="contentContainer">
+        <h1 class="headingTxt">I’m Yohanna. Glad to see you!</h1>
+        <p class="paragraph">I'm an enthusiastic and passionate full-stack developer. I specialize in building robust and scalable web applications, leveraging my expertise in front-end and back-end technologies. With a strong foundation in both client-side and server-side development, I strive to create seamless user experiences and deliver high-quality solutions.</p>
+        <h5 class="connectMeLink">LET’S CONNECT</h5>
+        <ul class="socialMediaContainer">
+            
+            <li>
+            <a href="https://twitter.com/YohannaYim" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="socialMediaIcon" d="M19.7587 0.394423C19.4253 -0.00424693 18.8587 -0.103914 18.4253 0.195088L16.492 1.52399C15.592 0.560536 14.3253 0.0289756 12.9587 0.0289756C10.2587 0.0289756 8.02532 2.22166 8.02532 4.94591C8.02532 5.34458 8.05865 5.71002 8.15865 6.07547C5.82532 5.57713 4.42532 3.88279 3.89198 0.826316C3.82532 0.427646 3.52532 0.128643 3.12532 0.0289756C2.75865 -0.070692 2.35865 0.0954206 2.12532 0.394423C2.05865 0.460868 -3.44135 8.10204 4.52532 14.5804C3.75865 16.2083 1.45865 17.6037 0.558651 18.0688C0.125318 18.2681 -0.0746825 18.7332 0.0253176 19.1984C0.125318 19.6635 0.525318 19.9625 0.991984 19.9625H2.72532C12.8587 19.9625 17.4587 14.9459 17.5587 3.71667L19.6587 1.72332C20.0587 1.3911 20.092 0.793093 19.7587 0.394423Z" fill="#505F79"/>
+            </svg>
+            </a> 
+            </li>
+            
+            <li>
+            <a href="http://www.linkedin.com/in/yohanna-yimer-92555714a" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="socialMediaIcon" d="M13.6448 3.03455C10.1561 3.03455 7.28906 5.86213 7.28906 9.37937V19.3104C7.28906 19.6897 7.59994 20.0001 7.97991 20.0001H11.5723C11.9523 20.0001 12.2632 19.6897 12.2632 19.3104V9.65524C12.2632 8.89661 12.8849 8.27592 13.6448 8.27592C14.4048 8.27592 15.0265 8.89661 15.0265 9.65524V19.3104C15.0265 19.6897 15.3374 20.0001 15.7174 20.0001H19.3098C19.6898 20.0001 20.0006 19.6897 20.0006 19.3104V9.37937C20.0006 5.89662 17.1682 3.03455 13.6448 3.03455Z" fill="#505F79"/>
+            <path class="socialMediaIcon" d="M2.48705 0C1.10535 0 0 1.10345 0 2.48276C0 3.86207 1.10535 4.96552 2.48705 4.96552C3.86874 4.96552 4.97409 3.86207 4.97409 2.48276C4.97409 1.10345 3.86874 0 2.48705 0Z" fill="#505F79"/>
+            <path class="socialMediaIcon" d="M4.28325 6.27588H0.690846C0.310881 6.27588 0 6.58622 0 6.96553V19.3104C0 19.6897 0.310881 20 0.690846 20H4.28325C4.66321 20 4.97409 19.6897 4.97409 19.3104V6.96553C4.97409 6.58622 4.66321 6.27588 4.28325 6.27588Z" fill="#505F79"/>
+            </svg></a>
+            </li>
+            
+           <li>
+           <a href="https://github.com/yohanna4" target="_blank"><svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path  class="socialMediaIcon" d="M17.9852 7.46114C17.9852 6.32124 17.6192 5.25043 16.9205 4.31779C17.1867 3.41969 17.2532 2.27979 17.1867 0.967185C17.1534 0.414508 16.7209 0 16.1885 0C15.8891 0 13.3604 0.0345423 11.8965 1.38169C10.6322 1.1399 9.30128 1.1399 8.00368 1.38169C6.573 0.0345423 4.04435 0 3.71163 0C3.17928 0 2.74675 0.414508 2.71348 0.967185C2.61366 2.27979 2.71348 3.41969 2.97965 4.31779C2.28095 5.28497 1.91496 6.35579 1.91496 7.46114C1.91496 9.8791 3.71163 12.0553 6.43991 13.0915C6.3401 13.2988 6.27355 13.5406 6.20701 13.7824C3.31237 13.4715 1.94823 10.7427 1.88169 10.639C1.64879 10.1209 1.04989 9.91364 0.550818 10.19C0.0517425 10.4318 -0.147888 11.0535 0.118286 11.5717C0.184829 11.7444 2.01477 15.4404 6.04065 15.8549V18.9637C6.04065 19.5509 6.47318 20 7.0388 20H12.8614C13.427 20 13.8595 19.5509 13.8595 18.9637V14.8532C13.8595 14.2314 13.7264 13.6442 13.4935 13.1261C16.1885 12.0553 17.9852 9.91364 17.9852 7.46114Z" fill="#505F79"/>
+           </svg>
+           </a>
+           </li>
+        </ul>
+      </section>
+
+      <!-- works or projects section dynamically generated -->
+      <section class="p-top" id="works"></section>
+        
+      <!-- about section -->
+      <section id="about">
+        <div class="aboutMainContainer">
+          <div class="AboutContentContainer">
+            <div class="aboutTxtWrapper">
+            <h2 class="headingTxt">About Myself</h2>
+            <p class="paragraph">Hello, my name is Yohanna Yimer, and I am a full-stack developer with a passion for creating exceptional user experiences. Since 2019, I have immersed myself in the world of web development, mastering a diverse set of technologies such as React.js, Express.js, Redux, Python, and more.
+
+              My journey has been marked by valuable experiences in both front-end and back-end development. I find great satisfaction in tackling the complexities of crafting dynamic web applications that captivate users and meet their needs. Whether it's designing intuitive interfaces or architecting robust server-side solutions, I am fueled by the challenge of creating seamless digital experiences.</p>
+            <h5 class="connectMeLink">LET’S CONNECT</h5>
+            <ul class="socialMediaContainer">
+                
+                <li>
+                <a href="https://github.com/yohanna4" target="_blank"><svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path  class="socialMediaIcon" d="M17.9852 7.46114C17.9852 6.32124 17.6192 5.25043 16.9205 4.31779C17.1867 3.41969 17.2532 2.27979 17.1867 0.967185C17.1534 0.414508 16.7209 0 16.1885 0C15.8891 0 13.3604 0.0345423 11.8965 1.38169C10.6322 1.1399 9.30128 1.1399 8.00368 1.38169C6.573 0.0345423 4.04435 0 3.71163 0C3.17928 0 2.74675 0.414508 2.71348 0.967185C2.61366 2.27979 2.71348 3.41969 2.97965 4.31779C2.28095 5.28497 1.91496 6.35579 1.91496 7.46114C1.91496 9.8791 3.71163 12.0553 6.43991 13.0915C6.3401 13.2988 6.27355 13.5406 6.20701 13.7824C3.31237 13.4715 1.94823 10.7427 1.88169 10.639C1.64879 10.1209 1.04989 9.91364 0.550818 10.19C0.0517425 10.4318 -0.147888 11.0535 0.118286 11.5717C0.184829 11.7444 2.01477 15.4404 6.04065 15.8549V18.9637C6.04065 19.5509 6.47318 20 7.0388 20H12.8614C13.427 20 13.8595 19.5509 13.8595 18.9637V14.8532C13.8595 14.2314 13.7264 13.6442 13.4935 13.1261C16.1885 12.0553 17.9852 9.91364 17.9852 7.46114Z" fill="#505F79"/>
+                </svg>
+                </a>
+                </li>
+    
+                <li>
+                <a href="http://www.linkedin.com/in/yohanna-yimer-92555714a" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="socialMediaIcon" d="M13.6448 3.03455C10.1561 3.03455 7.28906 5.86213 7.28906 9.37937V19.3104C7.28906 19.6897 7.59994 20.0001 7.97991 20.0001H11.5723C11.9523 20.0001 12.2632 19.6897 12.2632 19.3104V9.65524C12.2632 8.89661 12.8849 8.27592 13.6448 8.27592C14.4048 8.27592 15.0265 8.89661 15.0265 9.65524V19.3104C15.0265 19.6897 15.3374 20.0001 15.7174 20.0001H19.3098C19.6898 20.0001 20.0006 19.6897 20.0006 19.3104V9.37937C20.0006 5.89662 17.1682 3.03455 13.6448 3.03455Z" fill="#505F79"/>
+                <path class="socialMediaIcon" d="M2.48705 0C1.10535 0 0 1.10345 0 2.48276C0 3.86207 1.10535 4.96552 2.48705 4.96552C3.86874 4.96552 4.97409 3.86207 4.97409 2.48276C4.97409 1.10345 3.86874 0 2.48705 0Z" fill="#505F79"/>
+                <path class="socialMediaIcon" d="M4.28325 6.27588H0.690846C0.310881 6.27588 0 6.58622 0 6.96553V19.3104C0 19.6897 0.310881 20 0.690846 20H4.28325C4.66321 20 4.97409 19.6897 4.97409 19.3104V6.96553C4.97409 6.58622 4.66321 6.27588 4.28325 6.27588Z" fill="#505F79"/>
+                </svg></a>
+                </li>
+               
+                <li>
+                <a href="https://twitter.com/YohannaYim" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="socialMediaIcon" d="M19.7587 0.394423C19.4253 -0.00424693 18.8587 -0.103914 18.4253 0.195088L16.492 1.52399C15.592 0.560536 14.3253 0.0289756 12.9587 0.0289756C10.2587 0.0289756 8.02532 2.22166 8.02532 4.94591C8.02532 5.34458 8.05865 5.71002 8.15865 6.07547C5.82532 5.57713 4.42532 3.88279 3.89198 0.826316C3.82532 0.427646 3.52532 0.128643 3.12532 0.0289756C2.75865 -0.070692 2.35865 0.0954206 2.12532 0.394423C2.05865 0.460868 -3.44135 8.10204 4.52532 14.5804C3.75865 16.2083 1.45865 17.6037 0.558651 18.0688C0.125318 18.2681 -0.0746825 18.7332 0.0253176 19.1984C0.125318 19.6635 0.525318 19.9625 0.991984 19.9625H2.72532C12.8587 19.9625 17.4587 14.9459 17.5587 3.71667L19.6587 1.72332C20.0587 1.3911 20.092 0.793093 19.7587 0.394423Z" fill="#505F79"/>
+                </svg>
+                </a> 
+                </li>
+            </ul>
+           
+            <div class="btnWrapper">
+              <a href="https://yohanna4.github.io/Portfolio/image/YohannaYimerCV..pdf" target="_blank">
+                <button class="btn-project">Get my resume</button>
+              </a>
+            </div>
+            </div>
+            
+            <ul class="mainList">
+              <li><div class="categoryName language" onclick="toggleContent('languageContent', 'language')"><span>Language</span><img src="image/Union2.svg" alt="dropdown icon"></div>
+                <ul class="subList" id="languageContent">
+                  <li><div class="sublistContent"><img src="image/Ellipse 1.svg" alt="javaScript logo"><span>JavaScript</span></div></li>
+                  <li><div class="sublistContent"><img src="image/python.png" alt="html logo"><span>Python</span></div></li>
+                  <li><div class="sublistContent"><img src="image/dart.png" alt="css logo"><span>Dart</span></div></li>
+                </ul>
+              </li>
+              <li><div class="categoryName framework border" onclick="toggleContent('frameworkContent','framework')"><span>Frameworks/Libraries</span><img src="image/Union.svg" alt="dropdown icon"></div>
+                <ul class="subList" id="frameworkContent">
+                  <li><div class="sublistContent"><img src="image/react-logo.png" alt="javaScript logo"><span>React.js</span></div></li>
+                  <li><div class="sublistContent"><img src="image/tailwind-logo.png" alt="css logo"><span>Tailwind</span></div></li>
+                  <li><div class="sublistContent"><img src="image/node.png" alt="javaScript logo"><span>Node.js</span></div></li>
+                  <li><div class="sublistContent"><img src="image/native.png" alt="javaScript logo"><span>React Native</span></div></li>
+                  <li><div class="sublistContent"><img src="image/flutter.png" alt="html logo"><span>Flutter</span></div></li>
+                </ul>
+              </li>
+              <li><div class="categoryName skill border" onclick="toggleContent('skillContent','skill')"><span>Skills</span><img src="image/Union.svg" alt="dropdown icon"></div>
+                <div class="more-content">
+                <ul class="subList" id="skillContent">
+                  <li><div class="sublistContent"><img src="image/git-logo.png" alt="html logo"><span>Git</span></div></li>
+                  <li><div class="sublistContent"><img src="image/github-logo.png" alt="javaScript logo"><span>GitHub</span></div></li>
+                  <li><div class="sublistContent"><img src="image/postgress-logo.png" alt="css logo"><span>PostgreSQL</span></div></li>
+                  <li><div class="sublistContent"><img src="image/mongo.png" alt="css logo"><span>MongoDB</span></div></li>
+                  <li><div class="sublistContent"><img src="image/slack-logo.png" alt="css logo"><span>Slack</span></div></li>
+                  <!-- <li><div class="sublistContent"><img src="image/agile-logo.png" alt="css logo"><span>Agile</span></div></li> -->
+                </ul>
+                <ul class="subList" id="skillContent">
+                  <li><div class="sublistContent"><img src="image/github-logo.png" alt="javaScript logo"><span>GitHub</span></div></li>
+                  <li><div class="sublistContent"><img src="image/git-logo.png" alt="html logo"><span>Git</span></div></li>
+                  <li><div class="sublistContent"><img src="image/postgress-logo.png" alt="css logo"><span>PostgreSQL</span></div></li>
+                  <li><div class="sublistContent"><img src="image/postgress-logo.png" alt="css logo"><span>MongoDB</span></div></li>
+                  <li><div class="sublistContent"><img src="image/slack-logo.png" alt="css logo"><span>Slack</span></div></li>
+                </ul>
+              </div>
+              </li>
+            </ul>
+
+        </div>
+      </section>
+         
+      <!-- contact me section -->
+      <section class="contactMainBackground" id="contactMe">
+       <div class="contactMeMainContainer">
+        <div class="contactContainer">
+          <h2>Contact me</h2>
+          <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+            I’d love to help with it!</p>
+          </div>
+  
+            <form action="https://formspree.io/f/moqgadzd" method="post" class="formContainer">
+            <input type="text" name="name" id="name" placeholder="Full Name" required maxlength="30"/>
+            <input id="email" type="email" name="email" placeholder="Email" required/>
+            <span class="error"></span>
+            <textarea name="message" id="message" type="text" placeholder="Write your message here..." maxlength="500" required></textarea>
+            <div class="btnWrapper contactMeBtn">
+            <button class="btn-project" name="name" type="submit">Get in touch</button>
+            </div>
+          </form> 
+       </div>
+
+      </section>
+     </main>
+      <!-- modal dynamically generated -->
+     <section id="modal">
+
+
+     </section>
+</body>
+<script src="script.js"></script>
+</html>
+
+
+<!-- https://www.mmourouh.site/ -->
